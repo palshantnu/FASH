@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-timeline-flatlist/lib/index.d.ts b/node_modules/react-native-timeline-flatlist/lib/index.d.ts
+index a53f89f..646c11b 100644
+--- a/node_modules/react-native-timeline-flatlist/lib/index.d.ts
++++ b/node_modules/react-native-timeline-flatlist/lib/index.d.ts
+@@ -55,7 +55,7 @@ declare module "react-native-timeline-flatlist" {
+       rowID: number
+     ) => any;
+     renderFullLine?: boolean;
+-    options?: FlatListProps<Data>;
++    options?: Partial<FlatListProps<Data>>;
+     showTime?: boolean;
+     isUsingFlatlist?: boolean;
+   }

@@ -1,0 +1,65 @@
+{
+  "id": "savedcards",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/savedcards",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Savedcards"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Savedcards": {
+        "file": "Savedcards.tsx",
+        "extends": "SavedcardsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SavedcardsController",
+            "path": "./SavedcardsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SavedcardsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Savedcards"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Savedcards": {
+        "file": "Savedcards.web.tsx",
+        "extends": "SavedcardsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SavedcardsController",
+            "path": "./SavedcardsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SavedcardsController"
+          }
+        ]
+      }
+    }
+  }
+}

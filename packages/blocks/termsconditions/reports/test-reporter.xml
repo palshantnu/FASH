@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsDetail.web.steps.tsx">
+        <testCase name="TermsConditionsDetail User navigates to TermsConditions" duration="696"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsUsers.steps.tsx">
+        <testCase name="TermsConditionsUsers User navigates to TermsConditions" duration="691"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsDetail.steps.tsx">
+        <testCase name="TermsConditionsDetail User navigates to TermsConditions" duration="635"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsAndConditionsPrivacy.steps.tsx">
+        <testCase name="TermsAndConditionsPrivacy User navigates to TermsAndConditionsPrivacy" duration="649"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/ReturnPolicy.steps.tsx">
+        <testCase name="ReturnPolicy User navigates to ReturnPolicy" duration="679"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsDriverPolicy.steps.tsx">
+        <testCase name="TermsConditionsDriverPolicy User navigates to TermsConditionsDriverPolicy" duration="629"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/ShippingPolicy.steps.tsx">
+        <testCase name="ShippingPolicy User navigates to ShippingPolicy" duration="712"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsEdit.steps.tsx">
+        <testCase name="TermsConditionsEdit User navigates to TermsConditions" duration="509"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditions.steps.tsx">
+        <testCase name="TermsConditions User navigates to TermsConditions" duration="569"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditions.web.steps.tsx">
+        <testCase name="TermsConditions User navigates to TermsConditions" duration="689"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsConditionsEdit.web.steps.tsx">
+        <testCase name="TermsConditionsEdit User navigates to TermsConditions" duration="606"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/termsconditions/__tests__/step-definitions/TermsAndConditionStylistPricing.steps.tsx">
+        <testCase name="TermsAndConditionStylistPricing Buyer opens up TermsAndConditionStylistPricing" duration="636"/>
+    </file>
+</testExecutions>

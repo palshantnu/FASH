@@ -1,0 +1,1 @@
+export const BackIcon = require("../assets/BackIcon.png");

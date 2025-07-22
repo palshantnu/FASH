@@ -1,0 +1,65 @@
+{
+  "id": "contentmanagement3",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/contentmanagement3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contentmanagement3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contentmanagement3": {
+        "file": "Contentmanagement3.tsx",
+        "extends": "Contentmanagement3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Contentmanagement3Controller",
+            "path": "./Contentmanagement3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Contentmanagement3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contentmanagement3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contentmanagement3": {
+        "file": "Contentmanagement3.web.tsx",
+        "extends": "Contentmanagement3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Contentmanagement3Controller",
+            "path": "./Contentmanagement3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Contentmanagement3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

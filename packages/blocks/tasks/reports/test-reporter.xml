@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tasks/__tests__/step-definitions/TaskList.steps.tsx">
+        <testCase name="Tasks User navigates to TaskList" duration="612"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tasks/__tests__/step-definitions/Task.steps.tsx">
+        <testCase name="Tasks User navigates to Task" duration="799"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tasks/__tests__/step-definitions/tasks.web.steps.tsx">
+        <testCase name="Tasks User navigates to Tasks" duration="204"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tasks/__tests__/step-definitions/tasks.steps.tsx">
+        <testCase name="Tasks User navigates to Tasks" duration="399"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tasks/__tests__/step-definitions/TaskList.web.steps.tsx">
+        <testCase name="Tasks User navigates to TaskList" duration="313"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tasks/__tests__/step-definitions/Task.web.steps.tsx">
+        <testCase name="Tasks User navigates to Task" duration="392"/>
+    </file>
+</testExecutions>

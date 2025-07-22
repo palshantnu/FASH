@@ -1,0 +1,65 @@
+{
+  "id": "googleadsenseintegration",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/googleadsenseintegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Googleadsenseintegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Googleadsenseintegration": {
+        "file": "Googleadsenseintegration.tsx",
+        "extends": "GoogleadsenseintegrationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "GoogleadsenseintegrationController",
+            "path": "./GoogleadsenseintegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleadsenseintegrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Googleadsenseintegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Googleadsenseintegration": {
+        "file": "Googleadsenseintegration.web.tsx",
+        "extends": "GoogleadsenseintegrationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "GoogleadsenseintegrationController",
+            "path": "./GoogleadsenseintegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleadsenseintegrationController"
+          }
+        ]
+      }
+    }
+  }
+}

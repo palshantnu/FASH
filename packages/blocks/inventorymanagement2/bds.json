@@ -1,0 +1,14 @@
+{
+  "id": "inventorymanagement2",
+  "label": "inventorymanagement2",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "2.0.0",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [],
+  "web": []
+}

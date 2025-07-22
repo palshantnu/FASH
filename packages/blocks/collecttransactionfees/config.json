@@ -1,0 +1,65 @@
+{
+  "id": "collecttransactionfees",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/collecttransactionfees",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Collecttransactionfees"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Collecttransactionfees": {
+        "file": "Collecttransactionfees.tsx",
+        "extends": "CollecttransactionfeesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CollecttransactionfeesController",
+            "path": "./CollecttransactionfeesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CollecttransactionfeesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Collecttransactionfees"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Collecttransactionfees": {
+        "file": "Collecttransactionfees.web.tsx",
+        "extends": "CollecttransactionfeesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CollecttransactionfeesController",
+            "path": "./CollecttransactionfeesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CollecttransactionfeesController"
+          }
+        ]
+      }
+    }
+  }
+}

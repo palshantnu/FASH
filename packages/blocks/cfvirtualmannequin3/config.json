@@ -1,0 +1,69 @@
+{
+  "id": "cfvirtualmannequin3",
+  "version": "1.2.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/cfvirtualmannequin3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfvirtualmannequin3"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfvirtualmannequin3": {
+        "file": "Cfvirtualmannequin3.tsx",
+        "extends": "Cfvirtualmannequin3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfvirtualmannequin3Controller",
+            "path": "./Cfvirtualmannequin3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfvirtualmannequin3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfvirtualmannequin3"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfvirtualmannequin3": {
+        "file": "Cfvirtualmannequin3.web.tsx",
+        "extends": "Cfvirtualmannequin3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfvirtualmannequin3Controller",
+            "path": "./Cfvirtualmannequin3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfvirtualmannequin3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

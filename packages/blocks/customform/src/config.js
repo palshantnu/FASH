@@ -1,0 +1,97 @@
+Object.defineProperty(exports, "__esModule", {
+  value: true,
+});
+
+// Customizable Area Start
+exports.validationApiContentType = "application/json";
+exports.customCareNumberEndpoint = "account_block/contact_supports";
+exports.validationFormContentType = "multipart/form-data";
+exports.validationApiMethodType = "GET";
+exports.deleteSourceProductApiMethod = "DELETE";
+exports.submitSourceProductApiMethod = "POST";
+exports.exampleAPiEndPoint = "EXAMPLE_URL";
+exports.exampleAPiMethod = "POST";
+exports.sellerDetailsApiContentType = "application/json";
+exports.sellersAPIEndPoint = "custom_form/seller_accounts";
+exports.portfolio = "accounts/portfolio";
+exports.sellerDetailsAPIMethodPUT = "PUT";
+exports.sellerDetailsAPIMethodPOST = "POST";
+exports.sellerDetailsAPIMethodPATCH = "PATCH";
+exports.getSellersAPIMethod = "GET";
+exports.textInputPlaceHolder = "Enter Text";
+exports.labelTitleText = "customform";
+exports.labelBodyText = "customform Body";
+exports.errorMessageShopName = "Shop name is mandatory";
+exports.errorMessageGstin = "GSTIN is mandatory";
+exports.btnExampleTitle = "CLICK ME";
+exports.createProfileTitle = "Create Profile";
+exports.hiredStylist = "account_block/hire_stylists/list_hired_stylist"
+exports.congrats = "Congratulations!";
+exports.formSubmitted = "Your form is submitted";
+exports.sellerDetails = "Seller Details";
+exports.getStoreNameApiEndPoint = "accounts/bussiness/bussiness_name";
+exports.countryCodeApiEndpoint = "accounts/country_code_and_flags";
+exports.createStoreApiEndPoint = "accounts/bussiness";
+exports.createStoreSuccessMessage = "Store successfully registered!";
+exports.getAllStoreApiEndPoint = "accounts/bussiness/seller_store";
+exports.uploadDocumentApiEndPoint = "accounts/document";
+exports.getProfileEndpoint ="account_block/accounts/user_detail";
+exports.changeStoreStatusEndpoint = "accounts/bussiness/change_store_status";
+exports.getManageTimingStoreApiEndPoint = "account_block/accounts/bussiness/";
+exports.updateStoreTimingsApiEndPoint = "account_block/accounts/bussiness/";
+exports.updateManageTimingSuccessMessage = "Store timing updated successfully";
+exports.storeUpdateSuccessMessage = "Store details updated successfully";
+exports.validContactNumberMessage = "Please Enter a valid Contact Number";
+exports.zipcodeErrorMessage = "Please Enter only numeric values in Zipcode"
+exports.uploadDriverProfilePhotoApiEndPoint = "accounts/profile_photo";
+exports.profilePhotoUploadDriverSuccessMsg = "Profile Photo submitted successfully for admin approval";
+exports.getDriverDocumentApiEndPoint = "accounts/driver_doc_submission_status";
+exports.uploadDriverLicensePhotoApiEndPoint = "accounts/license";
+exports.uploadDriverRegistrationPhotoApiEndPoint = "accounts/upload_registration_number";
+exports.uploadDriverInsurancePhotoApiEndPoint = "accounts/upload_vehicle_insurance";
+exports.driverLicenseUploadDriverSuccessMsg = "License submitted successfully for admin approval";
+exports.driverRegistrationUploadDriverSuccessMsg = "Vehicle registration submitted successfully for admin approval";
+exports.vechileInsuranceUploadDriverSuccessMsg = "Vehicle insurance submitted successfully for admin approval";
+exports.driverCustomDataEndpoint = "bx_block_custom_form/driver_personal_info";
+exports.getDriverAllVehicleApiEndPoint = "accounts/vehicle";
+exports.addVehicleUploadDriverSuccessMsg = "Vehicle add submitted successfully for admin approval";
+exports.getDriverAgencyApiCallId = "accounts/agency_doc_submission_status";
+exports.uploadAgencyAuthorizationApiEndPoint = "accounts/agency_authorization_letter";
+exports.agencyUploadAuthorizationSuccessMsg = "Agency authorization letter submitted successfully for admin approval";
+exports.uploadCivilOrPassportApiCallId = "accounts/upload_civil_id_or_passport";
+exports.addCivilPassportDriverSuccessMsg = "Civil id & passport submitted successfully for admin approval";
+exports.countryCodeApiEndPoint = "accounts/country_code_and_flags";
+exports.getStateApiCallEndPoint = "bx_block_custom_form/all_states";
+exports.getCityByStateApiEndPoint = "bx_block_custom_form/cities?state=";
+exports.addAgencyInformationApiEndPoint = "bx_block_custom_form/register_agency";
+exports.stylistCustomFormEndPoint = "bx_block_custom_form/stylist_custom_accounts";
+exports.checkIBANnumberEndpoint = "accounts/validate_iban";
+exports.updatePortfolio = "accounts/portfolio";
+exports.uploadStylistDocs = "bx_block_custom_form/stylist_custom_accounts/upload_documents";
+exports.editProfileTitle = "Stylist Profile";
+exports.submitSourceProductApiEndPoint = "bx_block_catalogue/product_sourcing_requests";
+exports.getProductSourcingListApiEndPoint = "bx_block_catalogue/product_sourcing_requests";
+exports.deleteSourceProductApiEndPoint = "bx_block_catalogue/product_sourcing_requests/";
+exports.getProductSourcingMethod = "GET";
+exports.updateAPiMethod="PUT";
+exports.apiMethodTypeGet = "GET";
+exports.apiMethodTypePost = "POST";
+exports.getProductSourcingListMethod = "GET";
+exports.getOrderDetailsApiEndPoint = "bx_block_catalogue/order_details/";
+exports.getProductListApiEndPoint = "bx_block_catalogue/product_sourcing_requests/";
+exports.putAcceptRejectApiEndPoint = "/bx_block_catalogue/accept_and_reject_request";
+exports.stylistViewProductSourcingPage = "/bx_block_catalogue/show_request";
+exports.createStylistOfferApiEndPoint = "/bx_block_catalogue/product_sourcing_stylist_prices";
+exports.listStylistEndpoint = "account_block/accounts/list_stylist";
+exports.searchStylistEndpoint = "account_block/accounts/search_stylist?query="
+exports.updateFavouriteEndpoint = "account_block/buyer_favourites"
+exports.getBuyerFavStylistApiEndPoint = "account_block/buyer_favourites";
+exports.buyerRemoveFavStylistApiEndPoint = "account_block/buyer_favourites";
+exports.getMyBidsListApiEndPoint = "/bx_block_catalogue/product_sourcing_stylist_prices";
+exports.getCallBackListApiEndPoint = "/bx_block_custom_form/stylist_call_requests";
+exports.stylingRequestPoint = "bx_block_custom_form/hire_stylist_custom_forms";
+exports.createWishList='bx_block_wishlist2/wishlists';
+exports.postCheckPhoneNumberApiEndPoint = "accounts/validate_seller_contact";
+exports.getClientDetails='account_block/hire_stylists/list_client_hires';
+exports.sizeRegex = /^\s*([a-zA-Z0-9]+([, ][a-zA-Z0-9]+)*)\s*$/;
+// Customizable Area End

@@ -1,0 +1,65 @@
+{
+  "id": "loyaltysystem",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/loyaltysystem",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Loyaltysystem"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Loyaltysystem": {
+        "file": "Loyaltysystem.tsx",
+        "extends": "LoyaltysystemController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "LoyaltysystemController",
+            "path": "./LoyaltysystemController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LoyaltysystemController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Loyaltysystem"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Loyaltysystem": {
+        "file": "Loyaltysystem.web.tsx",
+        "extends": "LoyaltysystemController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "LoyaltysystemController",
+            "path": "./LoyaltysystemController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LoyaltysystemController"
+          }
+        ]
+      }
+    }
+  }
+}

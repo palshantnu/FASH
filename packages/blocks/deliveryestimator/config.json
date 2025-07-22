@@ -1,0 +1,65 @@
+{
+  "id": "deliveryestimator",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/deliveryestimator",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Deliveryestimator"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Deliveryestimator": {
+        "file": "Deliveryestimator.tsx",
+        "extends": "DeliveryestimatorController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DeliveryestimatorController",
+            "path": "./DeliveryestimatorController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DeliveryestimatorController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Deliveryestimator"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Deliveryestimator": {
+        "file": "Deliveryestimator.web.tsx",
+        "extends": "DeliveryestimatorController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DeliveryestimatorController",
+            "path": "./DeliveryestimatorController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DeliveryestimatorController"
+          }
+        ]
+      }
+    }
+  }
+}

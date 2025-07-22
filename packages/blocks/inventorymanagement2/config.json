@@ -1,0 +1,65 @@
+{
+  "id": "inventorymanagement2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/inventorymanagement2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Inventorymanagement2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Inventorymanagement2": {
+        "file": "Inventorymanagement2.tsx",
+        "extends": "Inventorymanagement2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Inventorymanagement2Controller",
+            "path": "./Inventorymanagement2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Inventorymanagement2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Inventorymanagement2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Inventorymanagement2": {
+        "file": "Inventorymanagement2.web.tsx",
+        "extends": "Inventorymanagement2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Inventorymanagement2Controller",
+            "path": "./Inventorymanagement2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Inventorymanagement2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

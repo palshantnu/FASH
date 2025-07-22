@@ -1,0 +1,65 @@
+{
+  "id": "uploadmedia3",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/uploadmedia3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Uploadmedia3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Uploadmedia3": {
+        "file": "Uploadmedia3.tsx",
+        "extends": "Uploadmedia3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Uploadmedia3Controller",
+            "path": "./Uploadmedia3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Uploadmedia3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Uploadmedia3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Uploadmedia3": {
+        "file": "Uploadmedia3.web.tsx",
+        "extends": "Uploadmedia3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Uploadmedia3Controller",
+            "path": "./Uploadmedia3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Uploadmedia3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

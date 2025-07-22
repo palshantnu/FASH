@@ -1,0 +1,65 @@
+{
+  "id": "shippingaddressvalidation2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/shippingaddressvalidation2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Shippingaddressvalidation2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Shippingaddressvalidation2": {
+        "file": "Shippingaddressvalidation2.tsx",
+        "extends": "Shippingaddressvalidation2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Shippingaddressvalidation2Controller",
+            "path": "./Shippingaddressvalidation2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Shippingaddressvalidation2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Shippingaddressvalidation2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Shippingaddressvalidation2": {
+        "file": "Shippingaddressvalidation2.web.tsx",
+        "extends": "Shippingaddressvalidation2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Shippingaddressvalidation2Controller",
+            "path": "./Shippingaddressvalidation2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Shippingaddressvalidation2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/ReportPerson.steps.tsx">
+        <testCase name="ReportPerson User navigates to ReportPerson" duration="439">
+            <failure message="TypeError: this.props.navigation.pop is not a function"><![CDATA[TypeError: this.props.navigation.pop is not a function
+    at ReportPerson.leftBtnClick (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/src/ReportPersonController.tsx:82:31)
+    at Object.onLeftPress (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/src/ReportPerson.tsx:36:92)
+    at Object.stepFunction (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/ReportPerson.steps.tsx:78:25)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/node_modules/jest-cucumber/src/feature-definition-creation.ts:132:65
+    at tryCallOne (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-native/node_modules/promise/lib/core.js:37:12)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-native/node_modules/promise/lib/core.js:123:15
+    at flush (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/asap/raw.js:50:29)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/node_modules/@jest/fake-timers/build/jestFakeTimers.js:434:18
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)]]></failure>
+        </testCase>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/PaymentRequest.steps.tsx">
+        <testCase name="PaymentRequest User navigates to PaymentRequest" duration="507"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatView.steps.tsx">
+        <testCase name="ChatView User navigates to ChatView" duration="536"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/TapPaymentView.steps.tsx">
+        <testCase name="TapPaymentView User navigates to TapPaymentView" duration="418"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/chatList.steps.tsx">
+        <testCase name="ChatList User navigates to ChatList" duration="595"/>
+        <testCase name="ChatList User navigates to ChatList to search data" duration="49"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatCart.steps.tsx">
+        <testCase name="ChatCart Buyer opens up ChatCart" duration="534"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatCheckout.steps.tsx">
+        <testCase name="ChatCheckout Buyer opens up ChatCheckout" duration="608"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.web.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatView.web.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/SendNewOrder.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.steps.tsx">
+        <testCase name="Chat User navigates to Chat" duration="819"/>
+        <testCase name="Chat User navigates to Chat wishlist" duration="208">
+            <failure message="Error: Tests cannot be nested. Test &quot;encountered a declaration exception&quot; cannot run because it is nested within &quot;User navigates to Chat wishlist&quot;."><![CDATA[Error: Tests cannot be nested. Test "encountered a declaration exception" cannot run because it is nested within "User navigates to Chat wishlist".
+    at Env.it (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/node_modules/@jest/core/node_modules/jest-jasmine2/build/jasmine/Env.js:605:19)
+    at Env.it (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/node_modules/@jest/core/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23)
+    at addSpecsToSuite (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/node_modules/@jest/core/node_modules/jest-jasmine2/build/jasmine/Env.js:488:18)
+    at Env.describe (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/node_modules/@jest/core/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)
+    at describe (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/node_modules/@jest/core/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.steps.tsx:1866:7
+    at Generator.next (<anonymous>)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.steps.tsx:27:71
+    at tryCallTwo (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-native/node_modules/promise/lib/core.js:45:5)
+    at doResolve (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-native/node_modules/promise/lib/core.js:200:13)]]></failure>
+        </testCase>
+    </file>
+</testExecutions>

@@ -1,0 +1,65 @@
+{
+  "id": "storecredits2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/storecredits2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Storecredits2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Storecredits2": {
+        "file": "Storecredits2.tsx",
+        "extends": "Storecredits2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Storecredits2Controller",
+            "path": "./Storecredits2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Storecredits2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Storecredits2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Storecredits2": {
+        "file": "Storecredits2.web.tsx",
+        "extends": "Storecredits2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Storecredits2Controller",
+            "path": "./Storecredits2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Storecredits2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

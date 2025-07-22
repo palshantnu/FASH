@@ -1,0 +1,65 @@
+{
+  "id": "expressdelivery",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/expressdelivery",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Expressdelivery"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Expressdelivery": {
+        "file": "Expressdelivery.tsx",
+        "extends": "ExpressdeliveryController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ExpressdeliveryController",
+            "path": "./ExpressdeliveryController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ExpressdeliveryController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Expressdelivery"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Expressdelivery": {
+        "file": "Expressdelivery.web.tsx",
+        "extends": "ExpressdeliveryController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ExpressdeliveryController",
+            "path": "./ExpressdeliveryController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ExpressdeliveryController"
+          }
+        ]
+      }
+    }
+  }
+}

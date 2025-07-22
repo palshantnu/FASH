@@ -1,0 +1,19 @@
+diff --git a/node_modules/@react-native-community/cli-server-api/build/securityHeadersMiddleware.js b/node_modules/@react-native-community/cli-server-api/build/securityHeadersMiddleware.js
+index 864088c..b9494d1 100644
+--- a/node_modules/@react-native-community/cli-server-api/build/securityHeadersMiddleware.js
++++ b/node_modules/@react-native-community/cli-server-api/build/securityHeadersMiddleware.js
+@@ -13,10 +13,10 @@ exports.default = securityHeadersMiddleware;
+  */
+ function securityHeadersMiddleware(req, res, next) {
+   // Block any cross origin request.
+-  if (typeof req.headers.origin === 'string' && !req.headers.origin.match(/^https?:\/\/localhost:/)) {
+-    next(new Error('Unauthorized request from ' + req.headers.origin + '. This may happen because of a conflicting browser extension. Please try to disable it and try again.'));
+-    return;
+-  } // Block MIME-type sniffing.
++  // if (typeof req.headers.origin === 'string' && !req.headers.origin.match(/^https?:\/\/localhost:/) && req.headers.origin.match()) {
++  //   next(new Error('Unauthorized request from ' + req.headers.origin + '. This may happen because of a conflicting browser extension. Please try to disable it and try again.'));
++  //   return;
++  // } // Block MIME-type sniffing.
+ 
+ 
+   res.setHeader('X-Content-Type-Options', 'nosniff');

@@ -1,0 +1,15 @@
+export const imgSplash = require("../assets/logo.png");
+export const imgloader = require("../assets/loader.png");
+export const SplashBG1 = require("../assets/SplashBG1.png");
+export const SplashBG2 = require("../assets/SplashBG2.png");
+export const SplashBG3 = require("../assets/SplashBG3.png");
+export const Logo = require("../assets/LogoBG.png");
+export const logoPrimary = require("../assets/logo_primary.png");
+export const bgWhite = require("../assets/bgwhite.png");
+export const SplashLogo = require("../assets/splash_logo.png");
+export const SplashLogo2 = require("../assets/Splash.png");
+export const Seller = require("../assets/seller.png");
+export const Buyer = require("../assets/buyer.png");
+export const Stylist = require("../assets/stylist.png");
+export const Partner = require("../assets/partner.jpg");
+export const UsFlag = require("../assets/usflag.svg");

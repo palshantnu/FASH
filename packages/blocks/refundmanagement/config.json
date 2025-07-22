@@ -1,0 +1,65 @@
+{
+  "id": "refundmanagement",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/refundmanagement",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Refundmanagement"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Refundmanagement": {
+        "file": "Refundmanagement.tsx",
+        "extends": "RefundmanagementController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "RefundmanagementController",
+            "path": "./RefundmanagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./RefundmanagementController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Refundmanagement"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Refundmanagement": {
+        "file": "Refundmanagement.web.tsx",
+        "extends": "RefundmanagementController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "RefundmanagementController",
+            "path": "./RefundmanagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./RefundmanagementController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-registration/__tests__/step-definitions/SocialMediaAccountRegistrationScreen.steps.tsx">
+        <testCase name="SocialMediaAccountRegistration social login with facebook button should be define inside render" duration="6"/>
+        <testCase name="SocialMediaAccountRegistration social login with google button should be define inside render" duration="3"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-registration/__tests__/step-definitions/SocialMediaAccountRegistrationScreen.web.steps.tsx">
+        <testCase name="SocialMediaAccountRegistration should render without crashes" duration="543"/>
+        <testCase name="SocialMediaAccountRegistration social login with facebook button should be define inside render" duration="228"/>
+        <testCase name="SocialMediaAccountRegistration social login with google button should be define inside render" duration="201"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-registration/__tests__/step-definitions/SocialMediaAccountOtpVerification.steps.tsx">
+        <testCase name="social-media-account-otp-verify User navigates to phone-verification" duration="763"/>
+        <testCase name="social-media-account-otp-verify User Enters A Invalid Otp" duration="578"/>
+        <testCase name="social-media-account-otp-verify User Enters otp" duration="444"/>
+        <testCase name="social-media-account-otp-verify User Enters otp for fogot password" duration="461"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-registration/__tests__/step-definitions/SocialMediaAccountPhoneScreen.steps.tsx">
+        <testCase name="SocialMediaAccountPhoneScreen page should render other terms page show drawing screen without crashing" duration="234"/>
+        <testCase name="SocialMediaAccountPhoneScreen page should find the testId btnBackSocialLoginPhone" duration="3"/>
+        <testCase name="SocialMediaAccountPhoneScreen page when i reach end and get navigation playload" duration="3"/>
+        <testCase name="SocialMediaAccountPhoneScreen page i can get all country code api with out errors" duration="37"/>
+        <testCase name="SocialMediaAccountPhoneScreen page I am trying to add phone number with empty phone number" duration="31"/>
+        <testCase name="SocialMediaAccountPhoneScreen page I can enter a phone number with out errors" duration="31"/>
+        <testCase name="SocialMediaAccountPhoneScreen page Update profile Should Pass and update data with errors" duration="3"/>
+        <testCase name="SocialMediaAccountPhoneScreen page Update profile Should Pass and update data with out errors" duration="2"/>
+    </file>
+</testExecutions>

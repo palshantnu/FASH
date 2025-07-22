@@ -1,0 +1,16 @@
+export const backIcon = require("../assets/backIcon.png");
+export const searchIcon = require("../assets/search.png");
+export const Logo = require("../assets/Logo.png");
+export const notification = require("../assets/notification.png");
+export const refreshIcon = require("../assets/refreshIcon.png");
+export const downArrow = require("../assets/downArrow.png");
+export const rightArrow = require("../assets/rightArrow.png");
+export const rightDisabledArrow = require("../assets/rightDisabledArrow.png");
+export const bank = require("../assets/bank.png");
+export const customerService = require("../assets/customerService.png");
+export const rightSignIcon = require("../assets/rightSignIcon.png");
+export const crossIcon = require("../assets/crossIcon.png");
+export const completeIcon = require("../assets/completeIcon.png");
+export const refundIcon = require("../assets/refundIcon.png");
+export const unSelectIcon = require("../assets/unSelectIcon.png");
+export const activeStatus = require("../assets/activeStatus.png");

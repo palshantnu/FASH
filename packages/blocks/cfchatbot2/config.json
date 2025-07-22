@@ -1,0 +1,69 @@
+{
+  "id": "cfchatbot2",
+  "version": "1.2.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/cfchatbot2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfchatbot2"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfchatbot2": {
+        "file": "Cfchatbot2.tsx",
+        "extends": "Cfchatbot2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfchatbot2Controller",
+            "path": "./Cfchatbot2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfchatbot2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfchatbot2"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfchatbot2": {
+        "file": "Cfchatbot2.web.tsx",
+        "extends": "Cfchatbot2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfchatbot2Controller",
+            "path": "./Cfchatbot2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfchatbot2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

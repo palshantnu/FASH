@@ -1,0 +1,65 @@
+{
+  "id": "trending2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/trending2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Trending2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Trending2": {
+        "file": "Trending2.tsx",
+        "extends": "Trending2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Trending2Controller",
+            "path": "./Trending2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Trending2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Trending2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Trending2": {
+        "file": "Trending2.web.tsx",
+        "extends": "Trending2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Trending2Controller",
+            "path": "./Trending2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Trending2Controller"
+          }
+        ]
+      }
+    }
+  }
+}
