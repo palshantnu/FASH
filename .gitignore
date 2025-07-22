@@ -40,7 +40,6 @@ xcshareddata
 
 # Android/IntelliJ
 #
-packages/blocks/savedcards/src/config.js
 
 android/app/release
 build/
