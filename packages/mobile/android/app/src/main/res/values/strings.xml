@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FASH</string>
+    <string name="facebook_app_id">170982444234877</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC74_7QnkOgBJRb2SecLdMvVrDL57anZzw</string>
+
+</resources>

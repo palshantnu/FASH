@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "462024028556",
+    "project_id": "fashionaggregator-639a6",
+    "storage_bucket": "fashionaggregator-639a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462024028556:android:e08f0717a64cc46ec7e6a9",
+        "android_client_info": {
+          "package_name": "com.FashionAggregator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462024028556-ah2pecaho521k772e1n789uhc28etd69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.FashionAggregator",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "462024028556-e8t1e3qnu31q50r3gto9f7r728supic3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACpXddvUGr657XKf7S0KSvvum1F4hF_vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462024028556-e8t1e3qnu31q50r3gto9f7r728supic3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462024028556-hj348v0b63tg760fd7kd9ko3okag8c1o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fashshop.fash"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

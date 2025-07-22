@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>462024028556-hj348v0b63tg760fd7kd9ko3okag8c1o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.462024028556-hj348v0b63tg760fd7kd9ko3okag8c1o</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>462024028556-ah2pecaho521k772e1n789uhc28etd69.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCKp4PS2nNYdBt6zqmzEP-2qtVzsF2or3s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>462024028556</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fashshop.fash</string>
+	<key>PROJECT_ID</key>
+	<string>fashionaggregator-639a6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fashionaggregator-639a6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:462024028556:ios:dd983a5985a3eafac7e6a9</string>
+</dict>
+</plist>
