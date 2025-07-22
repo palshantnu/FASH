@@ -1,0 +1,20 @@
+{
+  "id": "cfvirtualmannequin3",
+  "label": "cfvirtualmannequin3",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "1.2.0",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [
+    {
+      "Cfvirtualmannequin3": {
+        "label": "Cfvirtualmannequin3"
+      }
+    }
+  ],
+  "web": []
+}

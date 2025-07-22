@@ -1,0 +1,10 @@
+export const imgPasswordVisible = require("../assets/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+export const backIcon = require('../assets/backIcon.png');
+export const downArrow =require('../assets/downArrow.png');
+export const completeIcon = require('../assets/completeIcon.png');
+export const refundIcon = require('../assets/refundIcon.png');
+export const starIcon = require('../assets/star.png');
+export const infoIcon = require('../assets/infoIcon.png')
+export const unSelectIcon = require('../assets/unSelectIcon.png')
+export const activeStatus = require('../assets/activeStatus.png')

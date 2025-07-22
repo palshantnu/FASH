@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/ForgotPasswordOTP.steps.tsx">
+        <testCase name="ForgotPasswordOTP User navigates to ForgotPasswordOTP" duration="460"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/ResetNewPassword.steps.tsx">
+        <testCase name="ResetNewPassword User navigates to ResetNewPassword" duration="598"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/ResetPasswordOTP.steps.tsx">
+        <testCase name="ResetPasswordOTP User navigates to ResetPasswordOTP" duration="615"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/NewPassword.steps.tsx">
+        <testCase name="NewPassword User navigates to NewPassword" duration="423"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/ForgotPassword.steps.tsx">
+        <testCase name="ForgotPassword User navigates to ForgotPassword" duration="471"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/ResetPassword.steps.tsx">
+        <testCase name="ResetPassword User navigates to ResetPassword" duration="603"/>
+    </file>
+</testExecutions>

@@ -1,0 +1,13 @@
+export const imgPasswordVisible = require("../assets/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+export const mainLogo = require("../assets/mainLogo.png");
+export const phoneLogo = require("../assets/phoneLogo.png");
+export const googleIcon = require("../assets/googleIcon.png");
+export const facebookIcon = require("../assets/facebookIcon.png");
+export const appleIcon = require("../assets/appleIcon.png");
+export const unVisibleIcon = require("../assets/InvisibleIcon.png");
+export const visibleIcon = require("../assets/VisibleIcon.png");
+export const imageDivider = require("../assets/imageDivider.png");
+export const backIcon = require("../assets/backIcon.png");
+export const rightArrow = require("../assets/rightArrow.png");
+export const googleIcon2 = require("../assets/svgviewer-png-output.png");

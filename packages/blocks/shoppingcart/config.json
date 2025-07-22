@@ -1,0 +1,101 @@
+{
+  "id": "shoppingcart",
+  "version": "1.0.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/shoppingcart",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ShoppingCartOrders",
+      "AddShoppingCartOrderItem"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "ordermanagement"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ShoppingCart": {
+        "file": "ShoppingCartOrders.tsx",
+        "extends": "ShoppingCartController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ShoppingCartController",
+            "path": "./ShoppingCartController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ShoppingCartController"
+          }
+        ]
+      },
+      "AddShoppingCartOrderItem": {
+        "file": "AddShoppingCartOrderItem.tsx",
+        "extends": "ShoppingCartController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ShoppingCartController",
+            "path": "./ShoppingCartController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ShoppingCartController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ShoppingCartOrders",
+      "AddShoppingCartOrderItem"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "ordermanagement"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ShoppingCart": {
+        "file": "ShoppingCartOrders.web.tsx",
+        "extends": "ShoppingCartController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ShoppingCartController",
+            "path": "./ShoppingCartController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ShoppingCartController"
+          }
+        ]
+      },
+      "AddShoppingCartOrderItem": {
+        "file": "AddShoppingCartOrderItem.web.tsx",
+        "extends": "ShoppingCartController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ShoppingCartController",
+            "path": "./ShoppingCartController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ShoppingCartController"
+          }
+        ]
+      }
+    }
+  }
+}

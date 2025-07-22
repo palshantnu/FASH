@@ -1,0 +1,13 @@
+export const insertPhoto = require("../assets/insert_photo.png");
+export const backBtn = require("../assets/backBtn.png");
+export const call = require("../assets/call.png");
+export const more = require("../assets/more.png");
+export const selectGallery = require("../assets/selectGallery.png");
+export const send = require("../assets/send.png");
+export const search = require("../assets/search.png");
+export const uploadPhotos = require("../assets/uploadPhotos.png");
+export const download = require("../assets/download.png");
+export const locationIcon = require("../assets/location.png");
+export const person = require("../assets/person.png");
+export const phone = require("../assets/phone.png");
+export const home = require("../assets/home.png");

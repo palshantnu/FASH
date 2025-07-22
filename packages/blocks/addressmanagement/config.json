@@ -1,0 +1,101 @@
+{
+  "id": "AddressManagement",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AddressManagement",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Addresses",
+      "AddAddress"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Addresses": {
+        "file": "Addresses.tsx",
+        "extends": "AddressManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AddressManagementController",
+            "path": "./AddressManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AddressManagementController"
+          }
+        ]
+      },
+      "AddAddress": {
+        "file": "AddAddress.tsx",
+        "extends": "AddressManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AddressManagementController",
+            "path": "./AddressManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AddressManagementController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Addresses",
+      "AddAddress"
+    ],
+    "assembler-dependencies": [
+      "\"react-select\": \"^3.0.8\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Addresses": {
+        "file": "Addresses.tsx",
+        "extends": "AddressManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AddressManagementController",
+            "path": "./AddressManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AddressManagementController"
+          }
+        ]
+      },
+      "AddAddress": {
+        "file": "AddAddress.tsx",
+        "extends": "AddressManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AddressManagementController",
+            "path": "./AddressManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AddressManagementController"
+          }
+        ]
+      }
+    }
+  }
+}

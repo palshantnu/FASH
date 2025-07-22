@@ -1,0 +1,65 @@
+{
+  "id": "Upvotedownvote",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Upvotedownvote",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Upvotedownvote"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Upvotedownvote": {
+        "file": "Upvotedownvote.tsx",
+        "extends": "UpvotedownvoteController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "UpvotedownvoteController",
+            "path": "./UpvotedownvoteController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UpvotedownvoteController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Upvotedownvote"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UpvotedownvoteBlock": {
+        "file": "UpvotedownvoteBlock.tsx",
+        "extends": "UpvotedownvoteController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "UpvotedownvoteController",
+            "path": "./UpvotedownvoteController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UpvotedownvoteController"
+          }
+        ]
+      }
+    }
+  }
+}

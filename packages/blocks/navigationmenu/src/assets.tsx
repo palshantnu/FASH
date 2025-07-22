@@ -1,0 +1,9 @@
+export const userProfile = require("../assets/user-profile.png");
+export const crossIcon = require("../assets/crossIcon.png");
+export const analystIcon = require("../assets/analystIcon.png");
+export const fashionIcon = require("../assets/fashionIcon.png");
+export const arrowIcon = require("../assets/arrowIcon.png");
+export const revenueIcon = require("../assets/revenueIcon.png");
+export const salesIcon = require("../assets/salesIcon.png");
+export const yourActivutyIcon = require("../assets/yourActivutyIcon.png");
+export const logout = require("../assets/logout.png");

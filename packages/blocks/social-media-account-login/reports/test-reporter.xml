@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/__tests__/step-definitions/SocialMediaAccountLoginScreen.web.steps.tsx">
+        <testCase name="SocialMediaAccountLoginScreen should render without crashes" duration="468"/>
+        <testCase name="SocialMediaAccountLoginScreen social login with facebook button should be define inside render" duration="169"/>
+        <testCase name="SocialMediaAccountLoginScreen social login with google button should be define inside render" duration="153"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/__tests__/step-definitions/SocialMediaAccountLoginScreen.steps.tsx">
+        <testCase name="SocialMediaAccountLoginScreen should render without crashes" duration="1026">
+            <failure message="Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports."><![CDATA[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `SocialMediaAccountLoginScreen`.
+    at createFiberFromTypeAndProps (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16180:21)
+    at createFiberFromElement (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16208:15)
+    at createChild (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4752:28)
+    at reconcileChildrenArray (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5025:25)
+    at reconcileChildFibers (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5431:14)
+    at reconcileChildren (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7984:28)
+    at updateHostComponent (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8568:3)
+    at beginWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:9997:14)
+    at performUnitOfWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13800:12)
+    at workLoopSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13728:5)
+    at renderRootSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13691:7)
+    at performSyncWorkOnRoot (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13404:18)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2537:26
+    at unstable_runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/scheduler/cjs/scheduler.development.js:468:12)
+    at runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2486:10)
+    at flushSyncCallbackQueueImpl (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2532:9)
+    at flushSyncCallbackQueue (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2519:3)
+    at batchedUpdates (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13459:7)
+    at act (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15280:14)
+    at renderWithAct (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:66:3)
+    at Object.render (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:32:20)
+    at Object.<anonymous> (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/__tests__/step-definitions/SocialMediaAccountLoginScreen.steps.tsx:31:27)
+    at Object.asyncJestTest (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:100:37)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+        </testCase>
+        <testCase name="SocialMediaAccountLoginScreen social login with facebook button should be define inside render" duration="153">
+            <failure message="Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports."><![CDATA[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `SocialMediaAccountLoginScreen`.
+    at createFiberFromTypeAndProps (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16180:21)
+    at createFiberFromElement (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16208:15)
+    at createChild (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4752:28)
+    at reconcileChildrenArray (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5025:25)
+    at reconcileChildFibers (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5431:14)
+    at reconcileChildren (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7984:28)
+    at updateHostComponent (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8568:3)
+    at beginWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:9997:14)
+    at performUnitOfWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13800:12)
+    at workLoopSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13728:5)
+    at renderRootSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13691:7)
+    at performSyncWorkOnRoot (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13404:18)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2537:26
+    at unstable_runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/scheduler/cjs/scheduler.development.js:468:12)
+    at runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2486:10)
+    at flushSyncCallbackQueueImpl (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2532:9)
+    at flushSyncCallbackQueue (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2519:3)
+    at batchedUpdates (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13459:7)
+    at act (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15280:14)
+    at renderWithAct (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:66:3)
+    at Object.render (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:32:20)
+    at Object.<anonymous> (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/__tests__/step-definitions/SocialMediaAccountLoginScreen.steps.tsx:38:29)
+    at Object.asyncJestTest (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:100:37)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:75:41]]></failure>
+        </testCase>
+        <testCase name="SocialMediaAccountLoginScreen social login with google button should be define inside render" duration="184">
+            <failure message="Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports."><![CDATA[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `SocialMediaAccountLoginScreen`.
+    at createFiberFromTypeAndProps (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16180:21)
+    at createFiberFromElement (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16208:15)
+    at createChild (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4752:28)
+    at reconcileChildrenArray (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5025:25)
+    at reconcileChildFibers (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5431:14)
+    at reconcileChildren (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7984:28)
+    at updateHostComponent (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8568:3)
+    at beginWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:9997:14)
+    at performUnitOfWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13800:12)
+    at workLoopSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13728:5)
+    at renderRootSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13691:7)
+    at performSyncWorkOnRoot (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13404:18)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2537:26
+    at unstable_runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/scheduler/cjs/scheduler.development.js:468:12)
+    at runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2486:10)
+    at flushSyncCallbackQueueImpl (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2532:9)
+    at flushSyncCallbackQueue (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2519:3)
+    at batchedUpdates (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13459:7)
+    at act (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15280:14)
+    at renderWithAct (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:66:3)
+    at Object.render (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:32:20)
+    at Object.<anonymous> (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/__tests__/step-definitions/SocialMediaAccountLoginScreen.steps.tsx:47:29)
+    at Object.asyncJestTest (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:100:37)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:75:41]]></failure>
+        </testCase>
+        <testCase name="SocialMediaAccountLoginScreen user press button to navigate to login with email password" duration="149">
+            <failure message="Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports."><![CDATA[Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `SocialMediaAccountLoginScreen`.
+    at createFiberFromTypeAndProps (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16180:21)
+    at createFiberFromElement (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:16208:15)
+    at createChild (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:4752:28)
+    at reconcileChildrenArray (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5025:25)
+    at reconcileChildFibers (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:5431:14)
+    at reconcileChildren (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:7984:28)
+    at updateHostComponent (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:8568:3)
+    at beginWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:9997:14)
+    at performUnitOfWork (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13800:12)
+    at workLoopSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13728:5)
+    at renderRootSync (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13691:7)
+    at performSyncWorkOnRoot (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13404:18)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2537:26
+    at unstable_runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/scheduler/cjs/scheduler.development.js:468:12)
+    at runWithPriority (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2486:10)
+    at flushSyncCallbackQueueImpl (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2532:9)
+    at flushSyncCallbackQueue (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2519:3)
+    at batchedUpdates (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:13459:7)
+    at act (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-test-renderer/cjs/react-test-renderer.development.js:15280:14)
+    at renderWithAct (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:66:3)
+    at Object.render (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/@testing-library/react-native/src/render.tsx:32:20)
+    at Object.<anonymous> (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/__tests__/step-definitions/SocialMediaAccountLoginScreen.steps.tsx:56:29)
+    at Object.asyncJestTest (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:100:37)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/social-media-account-login/node_modules/jest-jasmine2/build/queueRunner.js:75:41]]></failure>
+        </testCase>
+    </file>
+</testExecutions>

@@ -1,0 +1,65 @@
+{
+  "id": "admanager",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/admanager",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Admanager"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Admanager": {
+        "file": "Admanager.tsx",
+        "extends": "AdmanagerController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AdmanagerController",
+            "path": "./AdmanagerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AdmanagerController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Admanager"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Admanager": {
+        "file": "Admanager.web.tsx",
+        "extends": "AdmanagerController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AdmanagerController",
+            "path": "./AdmanagerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AdmanagerController"
+          }
+        ]
+      }
+    }
+  }
+}

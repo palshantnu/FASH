@@ -1,0 +1,65 @@
+{
+  "id": "productdescription3",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/productdescription3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Productdescription3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Productdescription3": {
+        "file": "Productdescription3.tsx",
+        "extends": "Productdescription3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Productdescription3Controller",
+            "path": "./Productdescription3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Productdescription3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Productdescription3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Productdescription3": {
+        "file": "Productdescription3.web.tsx",
+        "extends": "Productdescription3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Productdescription3Controller",
+            "path": "./Productdescription3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Productdescription3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

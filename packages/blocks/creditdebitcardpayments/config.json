@@ -1,0 +1,65 @@
+{
+  "id": "creditdebitcardpayments",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/creditdebitcardpayments",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Creditdebitcardpayments"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Creditdebitcardpayments": {
+        "file": "Creditdebitcardpayments.tsx",
+        "extends": "CreditdebitcardpaymentsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CreditdebitcardpaymentsController",
+            "path": "./CreditdebitcardpaymentsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CreditdebitcardpaymentsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Creditdebitcardpayments"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Creditdebitcardpayments": {
+        "file": "Creditdebitcardpayments.web.tsx",
+        "extends": "CreditdebitcardpaymentsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CreditdebitcardpaymentsController",
+            "path": "./CreditdebitcardpaymentsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CreditdebitcardpaymentsController"
+          }
+        ]
+      }
+    }
+  }
+}

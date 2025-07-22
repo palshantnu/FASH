@@ -1,0 +1,53 @@
+{
+  "id": "StripePayments",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/StripePayments",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "StripePayments"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-mask-input\": \"^1.2.2\"",
+      "\"cleave.js\": \"^1.6.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [
+      "\"@testing-library/dom\": \"8.18.1\"",
+      "\"@testing-library/jest-dom\": \"5.16.5\"",
+      "\"@testing-library/react\": \"13.4.0\"",
+      "\"@testing-library/react-native\": \"11.2.0\"",
+      "\"@testing-library/jest-native\": \"^4.0.12\"",
+      "\"@types/cleave.js\": \"^1.4.7\""
+    ],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "StripePayments"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-mask-input\": \"^1.2.2\"",
+      "\"cleave.js\": \"^1.6.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [
+      "\"@testing-library/dom\": \"8.18.1\"",
+      "\"@testing-library/jest-dom\": \"5.16.5\"",
+      "\"@testing-library/react\": \"13.4.0\"",
+      "\"@testing-library/react-native\": \"11.2.0\"",
+      "\"@testing-library/jest-native\": \"^4.0.12\"",
+      "\"@types/cleave.js\": \"^1.4.7\""
+    ],
+    "merge-engine-screens": {}
+  }
+}

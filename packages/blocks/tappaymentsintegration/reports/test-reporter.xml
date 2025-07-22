@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsaddbank.steps.tsx">
+        <testCase name="tappaymentsaddbank User navigates to tappaymentsaddbank" duration="842">
+            <failure message="TypeError: Utilities_1.isEmpty is not a function"><![CDATA[TypeError: Utilities_1.isEmpty is not a function
+    at TappaymentsAddBank.addBankAccount (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/src/TappaymentsAddBankController.tsx:171:8)
+    at handler (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/src/TappaymentsAddBank.tsx:148:116)
+    at callback (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/@testing-library/react-native/src/fireEvent.ts:121:19)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/@testing-library/react-native/src/act.ts:35:24
+    at actImplementation (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react/cjs/react.development.js:2512:16)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/@testing-library/react-native/src/act.ts:34:25
+    at invokeEvent (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/@testing-library/react-native/src/fireEvent.ts:120:3)
+    at Function.pressHandler [as press] (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/@testing-library/react-native/src/fireEvent.ts:131:3)
+    at Object.stepFunction (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsaddbank.steps.tsx:93:19)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/node_modules/jest-cucumber/src/feature-definition-creation.ts:132:65
+    at tryCallOne (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-native/node_modules/promise/lib/core.js:37:12)
+    at /data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/react-native/node_modules/promise/lib/core.js:123:15
+    at flush (/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)]]></failure>
+        </testCase>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsintegration.steps.tsx">
+        <testCase name="tappaymentsintegration User navigates to tappaymentsintegration" duration="173"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsintegration.web.steps.tsx">
+        <testCase name="tappaymentsintegration User navigates to tappaymentsintegration" duration="43"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsWebview.steps.tsx">
+        <testCase name="tappaymentsWebview User navigates to tappaymentsWebview" duration="75"/>
+        <testCase name="tappaymentsWebview User loads a charge URL" duration="13"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tapwebviewforstylistplan.steps.tsx">
+        <testCase name="TapWebViewForStylistPlan Buyer opens up the TapWebViewForStylistPlan screen" duration="89"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsellerearning.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentspaymentdetail.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentdriverearning.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsbuyerhistory.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentdearningactivity.steps.tsx">
+    </file>
+    <file path="/data/home/ubuntu/Desktop/fashionaggregator-326157-react-native/src/packages/blocks/tappaymentsintegration/__tests__/step-definitions/tappaymentsdriverbankdetail.steps.tsx">
+    </file>
+</testExecutions>

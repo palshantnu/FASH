@@ -1,0 +1,12 @@
+export const backIcon = require("../assets/backIcon.png");
+export const plusIcon = require("../assets/plus.png");
+export const minusIcon = require("../assets/minus.png");
+export const locationIcon = require("../assets/location.png");
+export const person = require("../assets/person.png");
+export const phone = require("../assets/phone.png");
+export const home = require("../assets/home.png");
+export const card = require("../assets/card.png");
+export const coupon = require("../assets/coupon.png");
+export const truck = require("../assets/truck.png");
+export const truckSpeed = require("../assets/truck-speed.png");
+export const reward = require("../assets/reward.png");

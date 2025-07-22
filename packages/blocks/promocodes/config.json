@@ -1,0 +1,63 @@
+{
+  "id": "promocodes",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/promocodes",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Promocodes",
+      "PromocodeDetails"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Promocodes": {
+        "file": "Promocodes.tsx",
+        "extends": "PromocodesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PromocodesController",
+            "path": "./PromocodesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PromocodesController"
+          }
+        ]
+      },
+      "PromocodeDetails": {
+        "file": "PromocodeDetails.tsx",
+        "extends": "PromocodesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PromocodesController",
+            "path": "./PromocodesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PromocodesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cfchatbot2",
+  "label": "cfchatbot2",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "1.2.0",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [
+    {
+      "Cfchatbot2": {
+        "label": "Cfchatbot2"
+      }
+    }
+  ],
+  "web": []
+}
